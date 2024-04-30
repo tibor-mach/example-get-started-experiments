@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = gcs
 ['remote "storage"']
     url = https://remote.dvc.org/get-started-pools
+['remote "gcs"']
+    url = gs://dvc-cse/example-omnisens
